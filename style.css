@@ -17,6 +17,27 @@ body {
   padding: 40px 35px;
   text-align: center;
 }
+@media (max-width: 475px) and (min-width: 360px) {
+  .card {
+    padding: 40px 10px;
+  }
+  .search input {
+    width: 1px;
+  }
+  .details {
+    gap: 30px;
+  }
+  .col1 {
+    position: relative;
+    right: 20px;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 20px;
+    margin-top: -6px;
+  }
+}
 .search {
   width: 100%;
   display: flex;
